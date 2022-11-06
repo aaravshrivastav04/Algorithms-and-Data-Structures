@@ -1,5 +1,5 @@
 def factorial(n):
-    # Our contraint is that x should be a positive integer only
+    # Our contraint is that n should be a positive integer only
     assert 0 <= n == int(n), 'The number must be a positive integer only'
     # The factorial of both 0 and 1 is 1. Thus, to prevent an infinite loop it's essential 
     # to define our base condition
