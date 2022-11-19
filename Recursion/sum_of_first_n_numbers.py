@@ -1,5 +1,5 @@
 def sumof(n):  # Our function will take a number n as input
-    assert type(n) in [int, float], "n should be a number"  # n should be a number only
+    assert type(n) == int and n > 0 , "n should be a positive integer only"  # n should be a positive integer only
     if n in [1, 0]:  # If n is 0 or 1, we return the same value to the user
         return n
     else:
