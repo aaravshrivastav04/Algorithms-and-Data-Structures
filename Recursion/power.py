@@ -1,5 +1,7 @@
 def power(base, exp):
-    assert int(exp) == exp, "the exponent must be an integer only"
+    assert type(exp) == int, "the exponent must be an integer only"
+    assert type(base) in [int, float], "the base should be a number only"
+    
     if exp == 0:
         return 1
     elif exp < 0:
