@@ -1,4 +1,8 @@
 def hcf(n1, n2):    # Our function will take two numbers as input
+    
+    
+    # NOTE : THE FOLLOWING LOGIC IMPLEMENTS THE EUCLID's ALGORITHM OF FINDING THE GREATEST COMMON DIVISOR
+    
     assert type(n1) == type(n2) == int, "n1 and n2 should be integers only"
     # The two numbers must be integers only
 
