@@ -10,7 +10,7 @@ def hcf(n1, n2):    # Our function will take two numbers as input
     if n2 < 0:
         n2 *= -1
 
-    # As we use the euclid's algorithm, at one point we end up having the remainder as 0
+    # As we use the Euclid's algorithm, at one point we end up having the remainder as 0
     # So, as a result our code will throw an error of division by zero
     # To prevent, that  we will immediately return the last divisor as the HCF
     if n1 % n2 == 0:
