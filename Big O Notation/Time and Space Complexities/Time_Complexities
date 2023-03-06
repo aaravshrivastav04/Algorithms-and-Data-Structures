@@ -1,0 +1,7 @@
+Common time complexities :-
+
+O(1) --> This time complexity means that the time required for the code to run does not depend upon the size of the input 
+O(N) --> This is a linear time complexity. It means that the time required for the code to run increases linearly by the increase of input size
+O(LogN) --> Here, the time taken by the code to run increases logarithmically with the input size
+O(N^2) --> This time complexity refers to quadratic time. It occurs when we use nested loops in our code
+O(2^N) --> This time complexity refers to exponential time. Here the growth of time doubles each time the input is increased
